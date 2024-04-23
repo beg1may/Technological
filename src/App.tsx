@@ -1,10 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Button } from 'react-bootstrap';
+import NavbarHeader from '/src/Components/NavbarHeader';
+import Content from "./Components/Body/Content";
 
 const App = () => {
     return (
-        // <Button variant="primary">Web Dev Blog</Button>
+        <div className="fonts">
+            <NavbarHeader />
+            <Content />
+        </div>
     );
 };
 
