@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarHeader from '/src/Components/NavbarHeader';
 import Content from "./Components/Body/Content";
 import Categories from "./Components/Body/Categories";
+import NewsCard from "./Components/Body/News-card";
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
             <NavbarHeader />
             <Content />
             <Categories />
+            <NewsCard />
         </div>
     );
 };

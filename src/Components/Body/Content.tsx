@@ -4,8 +4,6 @@ import {Col, Row} from "react-bootstrap";
 
 const styled = {
     btn: {
-        "background-color": "#00A2ED",
-        "color": "#fff",
         "padding": "22px 115px",
     },
 
