@@ -37,7 +37,7 @@ const Content = () => {
                             <h1 className="fw-bold m-0" style={styled.title}>Technological equipment</h1>
                             <p className="mb-5" style={styled.text}>only we have the best offer in its category</p>
                         </div>
-                        <a className="btn fs-4" style={styled.btn} href="#">More</a>
+                        <a className="button fs-4" style={styled.btn} href="#">More</a>
                     </Col>
                     <div className="col-2 ms-auto me-2 p-0">
                         <p className="line d-flex justify-content-end me- fw-bold fs-2" style={styled.margin55}>01</p>
