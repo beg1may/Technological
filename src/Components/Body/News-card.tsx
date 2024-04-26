@@ -57,7 +57,7 @@ const NewsCard = () => {
                                 <Card.Footer
                                     className="border-0 pb-1 transparent-bg d-flex d-flex justify-content-between p-0">
                                     <small className="py-1 px-2" style={Style.bg}>20.04.24</small>
-                                    <a className="button py-1" style={Style.button} href="#">
+                                    <a className="button py-1 btnMore" style={Style.button} href="#">
                                         More
                                         <img className="mb-1 ms-1" src={icon} alt="icon"/>
                                     </a>
@@ -82,7 +82,7 @@ const NewsCard = () => {
                                 <Card.Footer
                                     className="border-0 pb-1 transparent-bg d-flex d-flex justify-content-between p-0">
                                     <small className="py-1 px-2" style={Style.bg}>20.04.24</small>
-                                    <a className="button px-4 py-1" style={Style.button} href="#">
+                                    <a className="button px-4 py-1 btnMore" style={Style.button} href="#">
                                         More
                                         <img className="mb-1 ms-1" src={icon} alt="icon"/>
                                     </a>
@@ -108,7 +108,7 @@ const NewsCard = () => {
                                     className="border-0 pb-1 transparent-bg d-flex d-flex justify-content-between p-0"
                                 >
                                     <small className="py-1 px-2" style={Style.bg}>20.04.24</small>
-                                    <a className="button px-4 py-1" style={Style.button} href="#">
+                                    <a className="button px-4 py-1 btnMore" style={Style.button} href="#">
                                         More
                                         <img className="mb-1 ms-1" src={icon} alt="icon"/>
                                     </a>
@@ -117,7 +117,7 @@ const NewsCard = () => {
                         </Card>
                     </Col>
                 </Row>
-                <a className="btn btn-outline-dark fs-4 d-block mx-auto col-3 py-3" href="#">All news</a>
+                <a className="btn btn-outline-dark fs-4 d-block mx-auto col-3 py-3 btnNews" href="#">All news</a>
             </div>
         </div>
     );

@@ -38,7 +38,17 @@
     color: white;
 }
 
-.line::before {
+.line1::before {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #00A2ED;
+    margin-top: 22px;
+    margin-right: 16px;
+}
+
+.line2::before {
     content: "";
     display: block;
     width: 13px;
@@ -48,7 +58,7 @@
     margin-right: 16px;
 }
 
-.bg-grey{
+.bg-grey {
     background: #E8E8E8;
 }
 
@@ -57,6 +67,60 @@
     margin-bottom: 42px;
 }
 
-.bg-footer{
+.bg-footer {
     background: #2D3336;
+}
+
+
+.navMenu:active {
+    background: #00A2ED;
+    border-radius: 0px;
+    border: none;
+}
+
+.modalOpen {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    transform: scale(0);
+}
+
+.modalOpen.active {
+    transform: scale(1);
+}
+
+.modalBlock {
+    background: url(Components/images/modal.png) center center no-repeat;
+    background-size: cover;
+}
+
+.bgColor {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.btnMore:hover {
+    border: 2px solid #ffffff;
+}
+
+.btnMore:active {
+    border: 2px solid #ffffff;
+    background-color: #0086C4;
+}
+
+.btnNews:hover {
+    background: transparent;
+    border: 2px solid #00A2ED;
+    color: #00A2ED;
+}
+
+.btnNews:active {
+    opacity: 0.1;
+    background: #00A2ED;
+    border: 2px solid #00A2ED;
+    color: #00A2ED;
 }
